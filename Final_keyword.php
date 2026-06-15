@@ -8,19 +8,19 @@
 // }
 // $c= new car();
 
-class honda{
-    final function cname(){
-        echo 'honda';
-    }
-}
+// class honda{
+//     final function cname(){
+//         echo 'honda';
+//     }
+// }
 
-class car extends honda{
-     function cname(){
-        echo 'honda city';
-    }
-}
-$c= new car();
-$c->cname();
+// class car extends honda{
+//      function cname(){
+//         echo 'honda city';
+//     }
+// }
+// $c= new car();
+// $c->cname();
 
 
 // "final" class means we can't inherit the class using the "final" keyword.
