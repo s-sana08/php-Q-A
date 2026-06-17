@@ -29,26 +29,26 @@
 // }
 
 
-if(isset($_POST['btn'])){
-    if($_POST['btn']=='set'){
-        $val = $_POST['user'];
-        setcookie('user',$val);
-        // setEncryptedCookie("user", $val, time() + 3600);
-        echo 'cookie set';
-    }
-    if($_POST['btn']=='display'){
-       if(isset($_COOKIE['user'])){
-        echo $_COOKIE['user'];
-        //  echo getDecryptedCookie('user');
-        }
-    }
-     if($_POST['btn']=='delete'){
-        if(isset($_COOKIE['user'])){
-            setcookie('user',null,-1);
-        }
-    }
+// if(isset($_POST['btn'])){
+//     if($_POST['btn']=='set'){
+//         $val = $_POST['user'];
+//         setcookie('user',$val,time() + 86400, '/');
+//         // setEncryptedCookie("user", $val, time() + 3600);
+//         echo 'cookie set';
+//     }
+//     if($_POST['btn']=='display'){
+//        if(isset($_COOKIE['user'])){
+//         echo $_COOKIE['user'];
+//         //  echo getDecryptedCookie('user');
+//         }
+//     }
+//      if($_POST['btn']=='delete'){
+//         if(isset($_COOKIE['user'])){
+//             setcookie('user',null,-1);
+//         }
+//     }
    
-}
+// }
 
 
 
@@ -73,7 +73,7 @@ if(isset($_POST['btn'])){
 
 /*
 
--cookie is a small piece of data that store on youser browser.
+-cookie is a small piece of data that store on user browser.
 -cookie set using setcookie() function;
 -Cookies are sent automatically with every HTTP request to that domain.
 -Size limit is around 4KB
