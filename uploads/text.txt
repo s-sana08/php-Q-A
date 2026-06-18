@@ -1,0 +1,324 @@
+Zan@123.
+
+
+Top 10 Commonly asked PHP Interview Questions
+
+PHP Interview Questions For Freshers
+
+9. Tell me some of the disadvantages of PHP
+
+
+Intermediate Interview Questions
+1. What is the meaning of a final method and a final class?
+2. Explain Path Traversal
+3. What is the meaning of ‘escaping to PHP’?
+4. What is the difference between ASP.NET and PHP?
+5. What are cookies? How to create cookies in PHP?
+6. What is the difference between the include() and require() functions?
+7. What is the most used method for hashing passwords in PHP?
+8. How does the ‘foreach’ loop work in PHP?
+9. Does JavaScript interact with PHP?
+10. What are traits?
+11. Explain the main types of errors.
+12. Explain the importance of Parser in PHP?
+13. How can PHP and HTML interact?
+14. What is the purpose of @ in PHP?
+15. What are the different types of Array in PHP?
+
+
+PHP Interview Questions For Experienced
+1. What are the steps to create a new database using MySQL and PHP?
+2. What is the use of session_start() and session_destroy() functions in PHP?
+3. What is Memcache and Memcached in PHP? Is it possible to share a single instance of a Memcache between several projects of PHP?
+4. What are the different ways of handling the result set of MySQL in PHP?
+5. How to connect to a URL in PHP?
+6. How to create API in PHP?
+7. What is PDO in PHP?
+8. Differentiate between GET and POST
+9. Explain type hinting in PHP
+10. How to terminate the execution of a script in PHP?
+
+
+PHP Interview Questions For Freshers 
+1. What is PHP?
+2. What are the Common Uses of PHP?
+3. What is a Session in PHP?
+4. Differentiate between Static and Dynamic Websites
+5. What is PEAR in PHP?
+6. What are the Popular Frameworks in PHP?
+7. What are the Different Types of Variables Present in PHP?
+8. Is PHP a Case-Sensitive Scripting Language?
+9. What is "echo" in PHP?
+10. What are the Rules to Determine the “truth” of Any Value Which is not Already of the Boolean Type?
+
+
+
+1. What are the Various Constants Predefined in PHP?
+2. How to do Single and Multi Line Comment in PHP?
+3. What is the Purpose of Break and Continue Statement?
+4. What are Traits?
+5. How can You Embed PHP Code in an HTML Page?
+6. What are the Different Types of Array in PHP and Explain Each of Them
+7. How does the ‘foreach’ Loop Work in PHP?
+8. What is the Difference between Indexed and Associative Array?
+9. What are Constructor and Destructor in PHP?
+10.How can PHP and HTML Interact?
+
+1. What is Memcache and Memcached in PHP? Is It Possible to Share a Single Instance of a Memcache between Several Projects of PHP?
+2. What are Cookies in PHP?
+3. Differentiate between Require and Include?
+4. What are Different Types of Errors Available in PHP ?
+5. Write a Aample of Code Showing the Nested Ternary Conditional Operator in PHP.
+6. How do We Set an Infinite Execution Time for PHP Script?
+7. How to Connect to a URL in PHP? (With Steps)
+8. Does PHP Support Variable Length Argument Functions?
+9. How can We Create a Database Using PHP and MySQL?
+10.How to Terminate the Execution of a Script in PHP?
+
+
+Questions code step by step
+1) if $x =Null and $y =null both datatypes are same?
+2) what is th primary purpose of PHP? --> server side scripting
+3) php is frontent or backend?
+4) what are the rules for creating variables in php?
+5) how many types of error we have in php?
+6) $a; then waht is the datatype of this variable --->false, undefine, NULL, error. ---->NULL
+7) what is ternary operator?
+8) how to write if elseif condition with ternary operator?--> $ a>=18?"adult":($a>=13?"teen":"kid")
+9) can we concatinate index array and assositive array ?
+10) what is type juggling? with example.
+11) what is constructor?
+12) can we create multiple constructor in one class in php? --> no.
+13) can we create constructor in a function in php? with example.--->no only in class
+14) what is nested class? do php support nested class? php can not support nested class. but support nested ananomus class.
+15) what is variables of variable or $$ variables?-->reference variable.
+16) what is abstract classes? how to define abstract class?
+17) php is a asynchronous or synchronous?
+18) what is isset() and empty() in php? difference bet?
+19) why u want to work in php?any kind off web app
+20) namspaces,uml,cookie base ,cookie less,oops concept, design pattern,
+
+
+Questions
+PHP
+1) session vs. cookie
+2) get vs. post
+3) global variables
+4) diff bet $a and $$a
+5) diff bet include and required 
+6) factorial, fibonacci, string reverse, patterns, array sort
+7) implode vs. explode
+8) swap two no without using third variable
+9) array_merge() vs array_combine
+10) wap to print thable without using loop
+11) if vc switch
+12) loop levels
+13) const vc define
+
+MSQL
+1) primary vs unique key
+2) delete vs truncate
+3) what are joins?
+4) what is subquery?
+5) nth highest salary
+6) left and right join(queries)
+7) sql injection
+8) table types(storage engines)
+9) indexes and uses of indexes
+
+OOPS
+1) class and object
+-“A class is like a blueprint that defines properties and functions, and an object is a real instance created from that class.”
+
+2) what is constructor
+-“A constructor is a special method in a class that runs automatically when an object is created.”
+
+3) inheritance,
+-“Inheritance is a feature in PHP where one class (child) can use properties and methods of another class (parent), allowing code reuse.using extend class”
+
+4) interface
+-
+
+5) abstract
+4) method overloading vs method overriding
+
+
+1) what exactly is pear in php?
+
+
+
+interview question ans:
+______________________
+
+PHP:
+----
+
+1) What is OOP?
+   Object Oriented Programming
+   Coding mecthodology / style/ pattern
+-> - code more modular and reusable
+   - well organised code
+   - easier to debug
+   - best for medium to large website projects
+
+
+
+What is PEAR in php?
+-PEAR is:
+a repository of PHP libraries
+a framework with coding standards
+a package management system
+It let developers install, update, and reuse PHP packages easily.
+PEAR is a PHP package repository and installer that provides reusable components and standardized coding practices, mainly used in older PHP projects.
+
+
+
+What is the difference between a session and cookies?
+-A session stores the value on the server and cookies store the value in the user’s browser.
+
+
+Write a function to reverse a string without using strrev().
+How would you remove duplicate values from an array in PHP?
+Implement a function to check if a string is a palindrome
+Write a PHP function to find the second largest number in an array.
+Write a function to check whether a number is prime.
+How would you implement a recursive function to calculate the factorial of a number?
+How can you merge two sorted arrays into a single sorted array in PHP?
+Write a function to generate the Fibonacci series up to n terms.
+ How do you find the most frequent element in an array?
+
+
+--------------------------------------
+1) tell me about ur self?
+- good moring my name is sana shaikh i am php developer with 3 uyears of experience.
+  currently working at ondirect pvt ldt. i mainly working on backend using core php.
+  i have good experience in mysql database. i also work in jquery ,javascript for frontend support.
+  i have wored full project from development to deployment. that is from my side. thank u.
+
+2) tell me about ur project.
+- “I worked on a Hospital Management System developed using Core PHP, JavaScript, jQuery, and MySQL.
+The system has multiple login stations, such as doctor login, OPD, IPD, medical station, and gynecology station. Each station can place medicine orders for patients, including the patient name and prescription details.
+The hospital has its own pharmacy module, which receives these orders from all stations and supplies the required medicines accordingly.
+For authentication, I used PHP sessions to manage user logins and created REST APIs in PHP to handle data communication. All data is stored in a MySQL database, and I used jQuery and JavaScript to fetch and display data dynamically on the frontend.
+This project helped me understand role-based access, backend–frontend integration, and real-world hospital workflows.”
+
+-“I worked on an Internal CRM system developed using Core PHP, JavaScript, jQuery, and MySQL.
+The CRM provides role-based logins for employees, testers, and admins. Each employee has a dedicated login where they can log their daily work, including details such as campaign links created and tasks completed throughout the day.
+The system includes a tester module where testers can verify the links submitted by employees, mark them as checked, and record any errors encountered. All this information is linked to the specific employee who submitted the work.
+Admins have access to all modules and can monitor employee performance through dashboards that display detailed reports, including errors, completed links, and overall work statistics.”
+
+3)whye should we hire u?
+-“You should hire me because I have hands-on experience in Core PHP, JavaScript, jQuery, and MySQL. I have worked on real-time projects like a Hospital Management System and an Internal CRM. I am a quick learner, good at understanding requirements, and focused on delivering reliable solutions.”
+
+4)why r u lookig for new job?
+-I’m looking for a new job to grow my skills, take on challenges, and use my experience effectively.
+
+5) why r u choose php?
+-I chose PHP because it’s easy to learn and widely used for building web applications. It works well with MySQL, JavaScript, and jQuery, and I’ve gained strong hands-on experience building real projects with it.
+
+-------------------------------------------
+
+
+6) what is diff bt class and object?
+-“A class is a blueprint, and an object is something created from it.”
+
+7) what is php?
+-“PHP is a server-side scripting language used to build dynamic websites and web applications.”
+
+8)What is the difference between echo and print in PHP?
+-“Echo can display multiple parameters and does not return a value, while print can take only one parameter and always returns 1.”
+
+9)  What are superglobals in PHP?
+-“Superglobals in PHP are built-in variables available everywhere, used to access data like forms, sessions, cookies, server info, and files.”
+
+10)What are sessions and cookies in PHP?
+-“Sessions save data on the server, and cookies save data on the user’s browser.”
+
+11)How does PHP handle error handling?
+-“PHP handles notices, warnings, fatal errors, and exceptions, which can be managed with custom handlers or try…catch blocks.”
+
+12)What is a PHP function?
+-“A PHP function is a block of code that performs a specific task and can be reused anywhere in the program.”
+
+13) What is the difference between include() and require() in PHP?
+- “Both include() and require() are used to include files in PHP, but the difference is:
+include() gives a warning if the file is missing and the script continues.
+require() gives a fatal error if the file is missing and stops the script.”
+
+14)Differentiate between variables and constants in PHP
+-“Variables can change values during execution, while constants cannot be changed once defined.”
+
+15)What is a session in PHP?
+-“A session stores user data on the server to use across multiple pages during a visit.”
+
+16)What is a cookie in PHP?
+-“A cookie is data stored on the user’s browser to remember information like settings or login details.”
+
+17)What does PEAR stands for?
+-“PEAR stands for PHP Extension and Application Repository.
+It is a framework and repository for reusable PHP code and libraries.”
+
+18)Explain the difference between $message and $$message.
+-“$message is a normal variable, while $$message is a variable variable whose name comes from the value of $message.”
+
+Important PHP OOP Questions & Answers
+
+What is OOP in PHP?
+“OOP is a way to write PHP code using objects and classes, which helps organize code and reuse it easily.”
+
+What is a Class?
+“A class is a blueprint for creating objects; it defines properties and methods.”
+
+What is an Object?
+“An object is an instance of a class with its own data and functions.”
+
+What is a Constructor?
+“A constructor is a special method that runs automatically when an object is created.”
+
+What is Destructor?
+“A destructor is a special method that runs automatically when an object is destroyed, usually to clean up resources.”
+
+What is Inheritance?
+“Inheritance allows a class to use properties and methods of another class, which helps reuse code.”
+
+What is Interface?
+“An interface is a set of methods a class must implement, but it doesn’t have the code itself.”
+
+What is Abstract Class?
+“An abstract class can have both defined and undefined methods; a class extending it must implement the undefined methods.”
+
+What is Encapsulation?
+“Encapsulation hides the internal details of a class using private or protected properties and exposes them via public methods.”
+
+What is Polymorphism?
+“Polymorphism lets objects of different classes be treated the same way if they share methods or interfaces.”
+
+What is the difference between Interface and Abstract Class?
+“An interface only has method declarations; an abstract class can have both methods and properties. A class can implement multiple interfaces but can extend only one abstract class.”
+
+What is the difference between Overloading and Overriding?
+
+Overloading: Creating multiple methods with the same name but different parameters (PHP supports this with magic methods).
+
+Overriding: Redefining a method in a child class that already exists in the parent class.
+
+What is $this keyword?
+“$this refers to the current object inside a class.”
+
+What is self keyword?
+“self refers to the current class and is used to access static properties or methods.”
+
+What is parent keyword?
+“parent is used to access a property or method from the parent class.”
+
+What is static in PHP OOP?
+“Static properties and methods belong to the class, not an object, and can be accessed using ClassName::method().”
+
+What are Magic Methods?
+“Magic methods are special methods in PHP that start with __, like __construct(), __destruct(), __get(), __set(), etc., and perform automatic actions.”
+
+What is Composition?
+“Composition means building classes using objects of other classes instead of inheritance.”
+
+
+
