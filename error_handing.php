@@ -1,33 +1,33 @@
 <?php
-// class myException extends Exception{
-//     function showError(){
-//             $error = "<br>exception msg :". $this->getMessage() .
-//             "on line no" . $this->getLine();
-//             return $error;
-//         }
-// }
-// function div($n){
-//     try{
-//         if($n <= 0){
-//             throw new Exception('<br>change the number');
-//         }
-//         if($n == 3){
-//             throw new myException('number is 3.');
-//         }
-//         $div = 2 / $n;
-//         echo '<br>'.$div; 
-//     }catch(myException $e){
-//         echo $e->showError();
-//     }catch(Exception $e){
-//         echo $e->getMessage();
-//     }finally{
-//         echo '<br> Finally Block';
-//     }
+class myException extends Exception{
+    function showError(){
+            $error = "<br>exception msg :". $this->getMessage() .
+            "on line no" . $this->getLine();
+            return $error;
+        }
+}
+function div($n){
+    try{
+        if($n <= 0){
+            throw new Exception('<br>change the number');
+        }
+        if($n == 3){
+            throw new myException('number is 3.');
+        }
+        $div = 2 / $n;
+        echo '<br>'.$div; 
+    }catch(myException $e){
+        echo $e->showError();
+    }catch(Exception $e){
+        echo $e->getMessage();
+    }finally{
+        echo '<br> Finally Block';
+    }
 
-// }
-// div(2);
-// div(0);
-// div(3);
+}
+div(2);
+div(0);
+div(3);
 
 
 /*
