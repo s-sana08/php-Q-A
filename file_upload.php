@@ -27,6 +27,8 @@ if (isset($_FILES['fupload']['name'])) {
 
 
 /*
+Q: ehat is $_FILE[];
+A:“$_FILES is a superglobal array in PHP used to store information about uploaded files, such as file name, type, size, temporary location, and error status.”
 Q: How do you upload files securely in PHP?
 A: I validate file type using MIME, check file size, handle upload errors, rename files using uniqid, and store them securely using move_uploaded_file.
 */
