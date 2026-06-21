@@ -1,1 +1,73 @@
-Hello World
+Q: tell me about your self?
+A:“Good morning. 
+-My name is Sana Shaikh. 
+-I have 3 years of experience as a PHP Developer and I am currently working at Ondirect Private Limited. 
+-I mainly work with Core  PHP on the backend and use MySQL for database work. 
+-I also have experience with JavaScript and jQuery for frontend support. 
+-I have worked on complete projects from development to deployment.
+-That’s all from my side. Thank you.”
+
+Q: tell me about ur project.
+A:“I worked on a Hospital Management System developed using Core PHP, JavaScript, jQuery, and MySQL.
+-The system has multiple login stations, such as doctor login, OPD, IPD, medical station, and gynecology station.
+-Each station can place medicine orders for patients, including the patient name and prescription details.
+-The hospital has its own pharmacy module, which receives these orders from all stations and supplies the required medicines accordingly.
+-For authentication, I used PHP sessions to manage user logins and created REST APIs in PHP to handle data communication.
+-All data is stored in a MySQL database, and I used jQuery and JavaScript to fetch and display data dynamically on the frontend.
+-This project helped me understand role-based access, backendfrontend integration, and real-world hospital workflows”
+
+A:“I worked on an Internal CRM system developed using Core PHP, JavaScript, jQuery, and MySQL.
+-The CRM provides role-based logins for employees, testers, and admins.
+-Each employee has a dedicated login where they can log their daily work, including details such as campaign links created and tasks completed throughout the day.
+-The system includes a tester module where testers can verify the links submitted by employees, mark them as checked, and record any errors encountered.
+-All this information is linked to the specific employee who submitted the work.
+-Admins have access to all modules and can monitor employee performance through dashboards that display detailed reports.”
+
+
+
+
+Q: what is $_FILE[];
+A:“$_FILES is a superglobal array in PHP used to store information about uploaded files, such as file name, type, size, temporary location, and error status.”
+
+Q: How do you upload files securely in PHP?
+A: I validate file type using MIME, check file size, handle upload errors, rename files using uniqid, and store them securely using move_uploaded_file.
+
+Q:What are namespaces in PHP?
+A:“Namespaces in PHP are used to organize code into logical groups and avoid naming conflicts between classes, functions, and constants.”
+
+Q:Why are namespaces used?
+A:“To prevent name conflicts when two classes or functions have the same name, especially in large applications or when using third-party libraries.”
+
+Q:What is REST APIs?
+A:“I design REST APIs using proper HTTP methods, status codes, validation, and security practices like authentication and rate limiting.”
+
+-one line ans:
+-REST API = Client-server communication using HTTP methods
+
+Q: What is session?
+A:“Session is a server-side mechanism in PHP used to store user data across multiple pages. It stores data on the server and uses a unique session ID to identify each user.”
+
+Q: What is cookie?
+A:“Cookie is a small piece of data stored on the client’s browser, used to store user information like preferences or login details and sent with every request to the server.”
+
+Q: What is exception handling?
+A:“Exceptions are object-based errors that can be caught and handled gracefully, giving better control over application flow.”
+
+Q: What is error handling?
+A:“Error handling deals with system-level issues, while exception handling is used for logical and runtime errors in applications.”
+
+Q: What is a final class in PHP?
+A:"final" class means we can't inherit the class using the "final" keyword.
+
+Q: What is a final method in PHP?
+A:A "final" method means we can't override the method in a child class using the "final" keyword.
+
+Q: Difference between include(), require(), include_once(), and require_once()?
+A:“include() and require() are used to include files in PHP. The main difference is that include() gives a warning if the file is not found and continues execution, while require() gives a fatal error and stops the script.
+  include_once() and require_once() work the same as include() and require(), but they ensure the file is included only once to avoid duplicate inclusion.”
+
+Q: What are magic methods in PHP?
+A:“Magic methods in PHP are special methods that automatically get called when certain actions are performed on objects, such as object creation, method calls, or property access. They always start with double underscores (__).”
+
+-One-Line Answer
+-Magic methods = automatic methods triggered by object actions
