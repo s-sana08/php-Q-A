@@ -39,7 +39,7 @@ Q:Why are namespaces used?
 A:“To prevent name conflicts when two classes or functions have the same name, especially in large applications or when using third-party libraries.”
 
 Q:What is REST APIs?
-A:“I design REST APIs using proper HTTP methods, status codes, validation, and security practices like authentication and rate limiting.”
+A:“REST API (Representational State Transfer) is a web service architecture that allows communication between client and server using HTTP methods like GET, POST, PUT, and DELETE.”
 
 -one line ans:
 -REST API = Client-server communication using HTTP methods
@@ -51,7 +51,9 @@ Q: What is cookie?
 A:“Cookie is a small piece of data stored on the client’s browser, used to store user information like preferences or login details and sent with every request to the server.”
 
 Q: What is exception handling?
-A:“Exceptions are object-based errors that can be caught and handled gracefully, giving better control over application flow.”
+A:“Exceptions are object-based errors that can be caught and handled gracefully, giving better control over application flow.
+
+-It uses try, catch, and throw to manage runtime errors without stopping program execution.”
 
 Q: What is error handling?
 A:“Error handling deals with system-level issues, while exception handling is used for logical and runtime errors in applications.”
@@ -71,3 +73,24 @@ A:“Magic methods in PHP are special methods that automatically get called when
 
 -One-Line Answer
 -Magic methods = automatic methods triggered by object actions
+
+Q:What is header() function in PHP?
+A:“It is commonly used for page redirection, setting content type (like JSON), and controlling caching behavior.”
+
+Q:Why should we not trust file extensions?
+A:“We should not trust file extensions because attackers can rename malicious files to appear as safe files, such as changing a .php file to .jpg. Therefore, file extension alone is not reliable for validation.”
+
+Q:What will happen if a user uploads a 100MB file?
+A:“If a user uploads a 100MB file, the upload will usually fail because PHP has limits like upload_max_filesize and post_max_size. In this case, PHP returns an error such as UPLOAD_ERR_INI_SIZE.”
+
+-“It may fail due to PHP configuration limits or cause performance issues like slow processing or timeout if limits are increased.”
+
+Q:What is stateless in REST API?
+A:“Stateless means the server does not store any client session data. Each request from the client must contain all the information needed to process it.”
+
+-“In a stateless system, every request is independent, and the server does not remember previous requests.”
+
+Q:What are indexes in database?
+A:“Indexes in databases are used to improve the speed of data retrieval. They allow the database to find records quickly without scanning the entire table.”
+
+-“They are especially useful for large datasets and are created on frequently searched columns to improve query performance.”
